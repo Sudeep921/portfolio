@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sudip Shrestha | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600&family=Space+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="loader" id="loader">
+    <span id="loadNum">0</span><i>%</i>
+  </div>
+
+  <div class="progress" id="progress"></div>
+  <div id="cursors"></div>
+
+  <!-- NAVIGATION -->
+  <header class="nav">
+    <span class="logo"></span>
+
+    <nav>
+      <a href="#top">Home</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="stage">
+
+      <h1 class="big" id="big">PORTFOLIO</h1>
+
+      <img
+        class="me"
+        src="images/me.png"
+        alt="Sudip Shrestha"
+      >
+
+      <div class="hero-text" id="heroText">
+
+        <p class="hello">Hello, I'm</p>
+
+        <h2 class="name">
+          <span class="line">SUDIP</span>
+          <span class="line">SHRESTHA</span>
+        </h2>
+
+        <h3>
+          <span id="typing"></span>
+          <span class="caret">|</span>
+        </h3>
+
+        <p class="sub">
+          I'm a Computer Science student who loves building
+          websites and apps, and turning ideas into real projects.
+        </p>
+
+        <a href="#work" class="btn magnetic">VIEW WORK</a>
+
+        <p class="mono small">
+          BASED IN NEPAL · OPEN TO INTERNSHIPS · 2026
+        </p>
+
+      </div>
+
+      <!-- SIDE STATS -->
+      <aside class="side">
+
+        <div>
+          <b>10</b>
+          <span>PROJECTS BUILT</span>
+        </div>
+
+        <div>
+          <b>05</b>
+          <span>LANGUAGES</span>
+        </div>
+
+        <div>
+          <b>'26</b>
+          <span>STUDENT</span>
+        </div>
+
+      </aside>
+      <!-- END SIDE STATS -->
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills">
+
+    <p class="mono label">TECH STACK</p>
+
+    <div class="marquee">
+      <div class="track">
+        <span>HTML</span><i>·</i>
+        <span>CSS</span><i>·</i>
+        <span>JavaScript</span><i>·</i>
+        <span>Python</span><i>·</i>
+        <span>Java</span><i>·</i>
+        <span>C</span><i>·</i>
+        <span>React</span><i>·</i>
+        <span>Git</span><i>·</i>
+        <span>GitHub</span><i>·</i>
+        <span>MySQL</span><i>·</i>
+
+        <span>HTML</span><i>·</i>
+        <span>CSS</span><i>·</i>
+        <span>JavaScript</span><i>·</i>
+        <span>Python</span><i>·</i>
+        <span>Java</span><i>·</i>
+        <span>C</span><i>·</i>
+        <span>React</span><i>·</i>
+        <span>Git</span><i>·</i>
+        <span>GitHub</span><i>·</i>
+        <span>MySQL</span><i>·</i>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="section">
+
+    <p class="mono label red">SELECTED WORK</p>
+
+    <h2 class="title reveal">
+      WORK THAT <em>SHIPS.</em>
+    </h2>
+
+    <p class="intro reveal">
+      Projects I build while learning.
+      New projects appear here automatically.
+    </p>
+
+    <div id="projectsGrid">
+      <p class="intro">Loading projects...</p>
+    </div>
+
+  </section>
+
+  <!-- PROGRESS -->
+  <section class="section fast">
+
+    <p class="mono label red">PROGRESS</p>
+
+    <h2 class="title reveal">
+      BUILT FAST.<br>
+      <em>LEARNING DAILY.</em>
+    </h2>
+
+    <div class="nums reveal">
+
+      <div>
+        <strong data-n="10">0</strong>
+        <span>Projects built</span>
+      </div>
+
+      <div>
+        <strong data-n="5">0</strong>
+        <span>Programming languages</span>
+      </div>
+
+      <div>
+        <strong data-n="100">0</strong>
+        <span>Commits on GitHub</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+
+    <p class="mono label red">ABOUT</p>
+
+    <h2 class="title reveal">
+      NOT JUST CODE.<br>
+      <em>CODE THAT WORKS.</em>
+    </h2>
+
+    <p class="intro reveal">
+      I'm Sudip Shrestha, a Computer Science student from Nepal.
+      I enjoy web development, solving problems and learning
+      new technologies. I'm looking for an internship where
+      I can learn and contribute.
+    </p>
+
+    <ul class="exp reveal">
+
+      <li>
+        <b>2023 — 2027(Running Bachelor)</b>
+        <div>
+          <h4>Bachelor in Computer Science</h4>
+          <p>Nepalaya College , Tribhuvan University </p>
+        </div>
+      </li>
+
+      <li>
+        <b>2021 — 2023</b>
+        <div>
+          <h4>+2 Science</h4>
+          <p>Kathmandu BernHardt Secondary School & College</p>
+        </div>
+      </li>
+
+      <li>
+        <b>2024</b>
+        <div>
+          <h4>Certificate: Web Development</h4>
+          <p>Course / Platform Name</p>
+        </div>
+      </li>
+
+    </ul>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+
+    <h2 class="title reveal">
+      LET'S WORK<br>
+      <em>TOGETHER.</em>
+    </h2>
+
+    <a class="btn magnetic" href="mailto:cresthasudip9@gmail.com">
+      cresthasudip9@gmail.com
+    </a>
+
+    <p class="links mono">
+      <a href="https://github.com/" target="_blank">GITHUB</a> /
+      <a href="https://www.linkedin.com/feed/" target="_blank">LINKEDIN</a> /
+      <a href="https://www.instagram.com/" target="_blank">INSTAGRAM</a>
+    </p>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="mono">
+    © 2026 SUDIP SHRESTHA
+  </footer>
+
+  <!-- SUPABASE -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <script src="supabase-config.js"></script>
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
